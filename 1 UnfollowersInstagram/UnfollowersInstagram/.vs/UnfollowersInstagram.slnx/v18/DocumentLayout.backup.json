@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|c:\\users\\usuario\\desktop\\proyectoswebapi\\1 unfollowersinstagram\\unfollowersinstagram\\unfollowersinstagram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|solutionrelative:unfollowersinstagram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|c:\\users\\usuario\\desktop\\proyectoswebapi\\1 unfollowersinstagram\\unfollowersinstagram\\unfollowersinstagram\\dtos\\stringlistdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|solutionrelative:unfollowersinstagram\\dtos\\stringlistdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|c:\\users\\usuario\\desktop\\proyectoswebapi\\1 unfollowersinstagram\\unfollowersinstagram\\unfollowersinstagram\\dtos\\followingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|solutionrelative:unfollowersinstagram\\dtos\\followingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|c:\\users\\usuario\\desktop\\proyectoswebapi\\1 unfollowersinstagram\\unfollowersinstagram\\unfollowersinstagram\\dtos\\followingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|solutionrelative:unfollowersinstagram\\dtos\\followingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|c:\\users\\usuario\\desktop\\proyectoswebapi\\1 unfollowersinstagram\\unfollowersinstagram\\unfollowersinstagram\\dtos\\followerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|solutionrelative:unfollowersinstagram\\dtos\\followerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|c:\\users\\usuario\\desktop\\proyectoswebapi\\1 unfollowersinstagram\\unfollowersinstagram\\unfollowersinstagram\\services\\unfollowersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|solutionrelative:unfollowersinstagram\\services\\unfollowersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|c:\\users\\usuario\\desktop\\proyectoswebapi\\1 unfollowersinstagram\\unfollowersinstagram\\unfollowersinstagram\\controllers\\unfollowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539CD447-C41F-73B8-C0A6-60873CF4FF3D}|UnfollowersInstagram\\UnfollowersInstagram.csproj|solutionrelative:unfollowersinstagram\\controllers\\unfollowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FollowerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\DTOs\\FollowerDto.cs",
+              "RelativeDocumentMoniker": "UnfollowersInstagram\\DTOs\\FollowerDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\DTOs\\FollowerDto.cs",
+              "RelativeToolTip": "UnfollowersInstagram\\DTOs\\FollowerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T16:14:30.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FollowingResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\DTOs\\FollowingResponseDto.cs",
+              "RelativeDocumentMoniker": "UnfollowersInstagram\\DTOs\\FollowingResponseDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\DTOs\\FollowingResponseDto.cs",
+              "RelativeToolTip": "UnfollowersInstagram\\DTOs\\FollowingResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T16:11:58.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FollowingDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\DTOs\\FollowingDto.cs",
+              "RelativeDocumentMoniker": "UnfollowersInstagram\\DTOs\\FollowingDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\DTOs\\FollowingDto.cs",
+              "RelativeToolTip": "UnfollowersInstagram\\DTOs\\FollowingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T16:09:53.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StringListDataDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\DTOs\\StringListDataDto.cs",
+              "RelativeDocumentMoniker": "UnfollowersInstagram\\DTOs\\StringListDataDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\DTOs\\StringListDataDto.cs",
+              "RelativeToolTip": "UnfollowersInstagram\\DTOs\\StringListDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T16:06:49.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\Program.cs",
+              "RelativeDocumentMoniker": "UnfollowersInstagram\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\Program.cs",
+              "RelativeToolTip": "UnfollowersInstagram\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T04:29:50.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnfollowersService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\Services\\UnfollowersService.cs",
+              "RelativeDocumentMoniker": "UnfollowersInstagram\\Services\\UnfollowersService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\Services\\UnfollowersService.cs",
+              "RelativeToolTip": "UnfollowersInstagram\\Services\\UnfollowersService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:20:20.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnfollowersController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\Controllers\\UnfollowersController.cs",
+              "RelativeDocumentMoniker": "UnfollowersInstagram\\Controllers\\UnfollowersController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosWebAPI\\1 UnfollowersInstagram\\UnfollowersInstagram\\UnfollowersInstagram\\Controllers\\UnfollowersController.cs",
+              "RelativeToolTip": "UnfollowersInstagram\\Controllers\\UnfollowersController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA6wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T00:06:06.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1244,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1683,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
