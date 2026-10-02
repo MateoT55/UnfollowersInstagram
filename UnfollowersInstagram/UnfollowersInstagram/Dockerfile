@@ -1,21 +1,37 @@
-﻿# 1. Etapa de compilación
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+﻿# ==========================================
+# ETAPA 1: Construcción (SDK)
+# ==========================================
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY ["UnfollowersInstagram.csproj", "./"]
-RUN dotnet restore "./UnfollowersInstagram.csproj"
+# Copiamos solo el archivo del proyecto y restauramos las dependencias
+# ⚠️ REEMPLAZÁ 'TuProyecto.csproj' con el nombre de tu archivo!
+COPY ["TuProyecto.csproj", "./"]
+RUN dotnet restore "./TuProyecto.csproj"
 
+# Copiamos el resto del código
 COPY . .
-RUN dotnet publish "UnfollowersInstagram.csproj" -c Release -o /app/publish
 
-# 2. Etapa de producción (versión pineada con parches de seguridad)
-FROM mcr.microsoft.com/dotnet/aspnet:10.0.12 AS base
+# Compilamos en modo Release
+# ⚠️ REEMPLAZÁ 'TuProyecto.csproj' de nuevo acá!
+RUN dotnet publish "TuProyecto.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+# ==========================================
+# ETAPA 2: Producción (Runtime ligero)
+# ==========================================
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
+
+# 🔥 ESTA ES LA SOLUCIÓN AL ERROR: 
+# Usamos el usuario 'app' que Microsoft ya trae creado sin permisos de root
+USER app
+
+# .NET 8 con el usuario 'app' escucha por defecto en el puerto 8080
 EXPOSE 8080
 
+# Traemos los archivos ya compilados desde la Etapa 1
 COPY --from=build /app/publish .
 
-RUN adduser --disabled-password --gecos "" --uid 10001 appuser && chown -R appuser:appuser /app
-USER appuser
-
-ENTRYPOINT ["dotnet", "UnfollowersInstagram.dll"]
+# Arrancamos la aplicación
+# ⚠️ REEMPLAZÁ 'TuProyecto.dll' con el nombre de tu archivo (suele ser el mismo del csproj pero termina en .dll)
+ENTRYPOINT ["dotnet", "TuProyecto.dll"]
