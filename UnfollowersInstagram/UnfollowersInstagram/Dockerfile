@@ -5,16 +5,14 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Copiamos solo el archivo del proyecto y restauramos las dependencias
-# ⚠️ REEMPLAZÁ 'TuProyecto.csproj' con el nombre de tu archivo!
-COPY ["TuProyecto.csproj", "./"]
-RUN dotnet restore "./TuProyecto.csproj"
+COPY ["UnfollowersInstagram.csproj", "./"]
+RUN dotnet restore "./UnfollowersInstagram.csproj"
 
 # Copiamos el resto del código
 COPY . .
 
 # Compilamos en modo Release
-# ⚠️ REEMPLAZÁ 'TuProyecto.csproj' de nuevo acá!
-RUN dotnet publish "TuProyecto.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "UnfollowersInstagram.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # ==========================================
 # ETAPA 2: Producción (Runtime ligero)
@@ -22,7 +20,6 @@ RUN dotnet publish "TuProyecto.csproj" -c Release -o /app/publish /p:UseAppHost=
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 
-# 🔥 ESTA ES LA SOLUCIÓN AL ERROR: 
 # Usamos el usuario 'app' que Microsoft ya trae creado sin permisos de root
 USER app
 
@@ -33,5 +30,4 @@ EXPOSE 8080
 COPY --from=build /app/publish .
 
 # Arrancamos la aplicación
-# ⚠️ REEMPLAZÁ 'TuProyecto.dll' con el nombre de tu archivo (suele ser el mismo del csproj pero termina en .dll)
-ENTRYPOINT ["dotnet", "TuProyecto.dll"]
+ENTRYPOINT ["dotnet", "UnfollowersInstagram.dll"]
