@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using System.Text.Json;
 using UnfollowersInstagram.Services;
 
@@ -8,6 +9,8 @@ namespace UnfollowersInstagram.Controllers
     [Route("api/[controller]")]
     public class UnfollowersController: ControllerBase
     {
+        private const long MaxRequestBytes = 10_000_000;
+
         private readonly UnfollowersService _unfollowersService;
 
         public UnfollowersController(UnfollowersService unfollowersService)
@@ -18,6 +21,8 @@ namespace UnfollowersInstagram.Controllers
 
 
         [HttpPost]
+        [EnableRateLimiting("scan")]
+        [RequestSizeLimit(MaxRequestBytes)]
         public async Task<IActionResult> Scan([FromForm] IFormFile seguidores, [FromForm] IFormFile seguidos)
         {
             if (seguidores == null || seguidos == null)
@@ -26,8 +31,10 @@ namespace UnfollowersInstagram.Controllers
             }
 
 
-            if (!Path.GetExtension(seguidores.FileName).Equals(".json", StringComparison.OrdinalIgnoreCase) ||
-            !Path.GetExtension(seguidos.FileName).Equals(".json", StringComparison.OrdinalIgnoreCase))
+            if (string.IsNullOrWhiteSpace(seguidores.FileName) ||
+                string.IsNullOrWhiteSpace(seguidos.FileName) ||
+                !Path.GetExtension(seguidores.FileName).Equals(".json", StringComparison.OrdinalIgnoreCase) ||
+                !Path.GetExtension(seguidos.FileName).Equals(".json", StringComparison.OrdinalIgnoreCase))
             {
                 return BadRequest("Solo se permiten archivos JSON");
             }
@@ -45,9 +52,10 @@ namespace UnfollowersInstagram.Controllers
             }
 
 
-            catch (JsonException ex)
+            catch (JsonException)
             {
-                return BadRequest($"Error al procesar el archivo JSON: {ex.Message}");
+                // No se refleja ex.Message: evita filtrar detalles internos del parser.
+                return BadRequest("Error al procesar el archivo JSON. Verifica que sean los archivos exportados de Instagram.");
             }
         }
     }
